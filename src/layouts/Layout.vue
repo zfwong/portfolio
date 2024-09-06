@@ -50,7 +50,8 @@ const scrollToTop = () => {
                         </Link> -->
                         <RouterLink to="/" 
                             class="text-3xl hover:opacity-60 transition duration-300 cursor-pointer">
-                            zf.
+                            <img src="/logo_bungee_shade.png" alt="" height="75" width="75">
+                            <!-- zf. -->
                         </RouterLink>
 
                         <ul class="flex">

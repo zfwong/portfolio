@@ -34,7 +34,7 @@
         font-display: swap;
         src: url('/fonts/neue-haas-unica/NeueHaasUnica-ExtraLight.woff2') format('woff2');
     }
-    
+
     @font-face {
         font-family: "neue-haas-unica";
         font-style: italic;
@@ -50,7 +50,7 @@
         font-display: swap;
         src: url('/fonts/neue-haas-unica/NeueHaasUnica-Light.woff2') format('woff2');
     }
-    
+
     @font-face {
         font-family: "neue-haas-unica";
         font-style: italic;
@@ -162,8 +162,10 @@
 
 * {
     /* outline: 1px dashed red; */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 *::-webkit-scrollbar {
@@ -174,6 +176,10 @@ body {
     font-family: "neue-haas-unica", Figtree, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     font-size: 15px;
     color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .fade-in-enter-active,
