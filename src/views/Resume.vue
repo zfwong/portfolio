@@ -121,7 +121,7 @@
                         Tech / Skills
                     </div>
                 </div>
-                <div class="flex grid grid-cols-6 grid-rows-6 col-start-1 col-end-13 items-center md:items-start md:col-start-5 md:gap-2 md:grid-row-2 t-s-4">
+                <div class="flex grid grid-cols-6 grid-rows-6 col-start-1 col-end-13 items-center md:items-start md:col-start-5 md:gap-2 md:grid-rows-2 t-s-4">
                     <div class="col-start-1 row-start-1 col-end-7 row-end-2 md:col-end-3 text-gray font-bold">
                         Programming Languages
                     </div>
@@ -140,6 +140,17 @@
                     <p class="col-start-1 row-start-6 col-end-7 row-end-7 md:col-start-5 md:row-start-2 md:col-end-7 md:row-end-3">
                         MySQL, SQL Server
                     </p>
+                </div>
+                <div class="flex flex-col col-start-1 col-end-13 md:col-end-5 t-s-5">
+                    <div class="text-gray font-bold opacity-50">
+                        Download
+                    </div>
+                </div>
+                <div class="flex t-s-5">
+                    <a href="/resume.pdf" download target="_blank"
+                        class="underline">
+                        PDF
+                    </a>
                 </div>
             </div>
         </div>

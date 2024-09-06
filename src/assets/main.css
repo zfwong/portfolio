@@ -201,7 +201,9 @@ html {
 .fade-in-enter-active .t-s-3,
 .fade-in-leave-active .t-s-3,
 .fade-in-enter-active .t-s-4,
-.fade-in-leave-active .t-s-4 {
+.fade-in-leave-active .t-s-4,
+.fade-in-enter-active .t-s-5,
+.fade-in-leave-active .t-s-5 {
     transition: all .5s ease;
 }
 
@@ -212,7 +214,9 @@ html {
 .fade-in-enter-from .t-s-3,
 .fade-in-leave-to .t-s-3,
 .fade-in-enter-from .t-s-4,
-.fade-in-leave-to .t-s-4 {
+.fade-in-leave-to .t-s-4,
+.fade-in-enter-from .t-s-5,
+.fade-in-leave-to .t-s-5 {
     transform: translateY(30px);
     filter: blur(3px);
     opacity: 0.001;
@@ -228,6 +232,10 @@ html {
 
 .fade-in-enter-active .t-s-4 {
     transition-delay: .23s;
+}
+
+.fade-in-enter-active .t-s-5 {
+    transition-delay: .34s;
 }
 
 .fade-in-left-enter-active,
